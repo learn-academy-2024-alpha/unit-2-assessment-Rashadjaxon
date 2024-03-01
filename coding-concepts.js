@@ -29,7 +29,7 @@
 // const onlyOdds = [11, 12, 13, 14, 15].filter((number) => number % 2 !== 0)
 //   console.log(onlyOdds)
 
-// // a) Your answer: predicted output: [11,13,15]
+// // a) Your answer: predicted output: [11, 13, 15]
 // // b) Verify and explain: use .filter to remove all number that can be divided by 2 using modulo and bang operator. actual output: [11, 13, 15]
 
 // // --------------------4) What will this log?
@@ -40,22 +40,22 @@
 //   databases: "PostgreSQL",
 //   versionControl: "GitHub"
 // }
-// // console.log(myCodingSkills.languages[0])
+// console.log(myCodingSkills.languages[0])
 
-// // a) Your answer:
-// // b) Verify and explain:
+// // a) Your answer: "JavaScript"
+// // b) Verify and explain: calling myCodingSkill telling it to zero index from language array nested in the  function. actual output: JavaScript
 
 // // --------------------5) What will this log?
 
-class Learn {
-  constructor(name) {
-    this.student = name
-    this.cohort = "Alpha"
-    this.year = 2024
-  }
-}
-const learnStudent = new Learn("George")
-console.log(learnStudent)
+// class Learn {
+//   constructor(name) {
+//     this.student = name
+//     this.cohort = "Alpha"
+//     this.year = 2024
+//   }
+// }
+// const learnStudent = new Learn("George")
+// console.log(learnStudent)
 
 // // a) Your answer: output: 'George', 'Alpha', 2024 
 // // b) Verify and explain: new replaces name in constructor and returns the values in name, cohort, year. actual output: Learn { student: 'George', cohort: 'Alpha', year: 2024 }

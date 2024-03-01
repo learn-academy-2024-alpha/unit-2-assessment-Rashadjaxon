@@ -74,10 +74,13 @@
 
 // // a) Create a test with expect statements for each of the variables provided.
 
-descirbe("capitalizer", () => {
+ describe("capitalizer", () => {
+//(updated)had to come back and fix typo 🤦🏽, i should have read error more thoroughly    
     it("takes in an array of words and returns an array with all the words capitalized",() => {
+        
         const randomNouns1 = ["streetlamp", "potato", "teeth", "conclusion", "nephew"];
         const randomNouns2 = ["temperature", "database", "chopsticks", "mango"];
+        
         expect(capitalizer(randomNouns1)).toEqual("Streetlamp", "Potato", "Teeth", "Conclusion", "Nephew");
         expect(capitalizer(randomNouns2)).toEqual("Temperature", "Database", "Chopsticks", "Mango");
     })
@@ -89,10 +92,6 @@ descirbe("capitalizer", () => {
 
 // // b) Create the function that makes the test pass.
 
-//const capitalizer = (capArray) => {
-    //capNouns
-
-//}
 const capitalizer = (capArray) => {
     // Use map to iterate through each word in the array
     return capArray.map(word => {
@@ -102,3 +101,6 @@ const capitalizer = (capArray) => {
 }
 
 // // Explain your code:
+//declare and give value to the variable named capitalizer
+// Use map to iterate through each word in the array
+// Capitalize the first letter of each word and make the rest lowercase

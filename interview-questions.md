@@ -10,19 +10,19 @@ Type your initials here to confirm you read the instructions:
 
 1. What is the difference between a parameter and an argument?
 
-Your answer:
+Your answer: a parameter is a place holder and the argument populates that place holder when called/invoked
 
-Researched answer:
+Researched answer: Parameters are placeholders defined in the function signature, while arguments are the actual values passed to those parameters when calling the function.
 
 2. What is the difference between an object and a class?
 
-Your answer:
+Your answer: objects are a collection of key value pairs and class is a funct containing behavior and data
 
-Researched answer:
+Researched answer: In essence, a class is the abstract representation of an entity, defining its structure, while an object is a specific instance of that class, embodying the characteristics defined by the class.
 
-3. What is iteration?
+3. What is iteration? iteration is the process of repeating an action until a condition is met
 
-Your answer:
+Your answer: Iteration is the process of repeating a set of instructions or operations multiple times, often used in programming for tasks that require repetition or processing of data.
 
 Researched answer:
 
